@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('ediciones');
+  this.route('programa');
+  this.route('inscripcion');
+  this.route('home');
 });
 
 export default Router;

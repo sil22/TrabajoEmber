@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+}
+.suscripcion {
+  background-color: #00CED1;
+}
+.navbar-default {
+  background-color: #713B76;
+}
+.navbar-default .navbar-nav > li > a , .navbar-default .navbar-brand{
+  color: white;
+}
+.embed-responsive iframe {
+  width: 640px;
+  height: 360;
+}
+.imagenes{
+	display: inline-flex;
+  padding: 15px;
+}
+.table {
+  border: 4px double #00CED1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.text-primary {
+  color: #00CED1;
+}

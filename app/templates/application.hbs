@@ -1,5 +1,53 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="images/Jti-CONGRESO.png"  class="img-responsive"/>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <img src="images/Jti-header-right.png" class="img-responsive" />
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> -->
+
+        {{#link-to 'home' class="navbar-brand"}}  JTI CONGRESO {{/link-to}}
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav text-center">
+        <li>{{#link-to 'ediciones'}}  EDICIONES ANTERIORES {{/link-to}}</li>
+        <li>{{#link-to 'programa'}}  PROGRAMA {{/link-to}}</li>
+        <li>{{#link-to 'inscripcion'}}  INSCRIPCION {{/link-to}}</li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
 
 {{outlet}}
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <img src="images/organizadores.png" class="img-responsive"/>
+      </div>
+    </div>
+  </div>
+  <br>
+    <p>Web I - TUDAI - 2016 </p>
+  </footer>
